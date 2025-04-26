@@ -5,17 +5,21 @@
     --cor-destaque: #228B22
 }
 body{
-font-family: 'Caveat';
+font-family: 'Caveat', sans-serif;
+color: var(--cor-principal); 
   
 }
 h1,h2,h5{
 color: var(--cor-secundaria);
   font-weight: 700;
-
 }
-footer a{
+.lead, .btn-Link {
+color: var(--cor-destaque);
+font-weight: 700;
+}
+a, .btn-Link:hover {
   color: var(--cor-principal)
 }
-footer a:hover {
+a:hover {
 color: var(--cor-destaque)
 }
